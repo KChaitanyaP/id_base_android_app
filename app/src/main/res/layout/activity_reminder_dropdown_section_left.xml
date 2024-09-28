@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout">
+
+    <!-- Spinner (Dropdown) -->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84D589"
+        android:entries="@array/activity_reminder_dropdown_items"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/activity_reminder_prompt"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#1E88E5"
+        android:textColor="@color/black"
+        android:text="Submit" />
+
+</RelativeLayout>

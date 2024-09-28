@@ -2,4 +2,11 @@
     <string name="app_name">id-chat-firebase</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Dropdown Items -->
+    <string-array name="activity_reminder_dropdown_items">
+        <item>30 min</item>
+        <item>45 min</item>
+        <item>Later</item>
+    </string-array>
+    <string name="activity_reminder_prompt">Select an option</string>
 </resources>
