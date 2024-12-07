@@ -77,11 +77,19 @@ dependencies {
 
     // implementation("com.android.support:support-v4:28.0.0")
     // implementation("com.android.support:design:28.0.0")
-    implementation("com.google.firebase:firebase-auth:23.0.0")
-    implementation("com.google.firebase:firebase-database:21.0.0")
-    implementation("com.google.firebase:firebase-core:21.1.1")
+    // implementation("com.google.firebase:firebase-database:21.0.0")
+    // implementation("com.google.firebase:firebase-core:21.1.1")
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    // Import the BoM for the Firebase platform
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+    // implementation("com.google.firebase:firebase-admin:9.4.2")
+    implementation("com.google.firebase:firebase-auth:23.1.0")
+
+    // Add the dependency for the Realtime Database library
+    implementation("com.google.firebase:firebase-database:21.0.0")
     // implementation("com.android.support:cardview-v7:28.0.0")
     // implementation("com.rengwuxian.materialedittext:library:2.1.4")
     // implementation("com.android.support:appcompat-v7:28.0.0")

@@ -28,6 +28,7 @@ public class RegisterActivity extends AppCompatActivity {
     DatabaseReference reference;
     String LOGTAG = "REGISTER_ACTIVITY";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +44,6 @@ public class RegisterActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Register");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
 
         btn_register.setOnClickListener(view -> {
             String txt_username = username.getText().toString();
