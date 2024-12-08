@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable-hdpi_ic_action_name.png.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable-hdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable_background_left.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable/background_left.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable-anydpi_ic_action_name.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable-anydpi/ic_action_name.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_activity_start.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable_background_right.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable/background_right.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_activity_reminder_dropdown_section_left.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/activity_reminder_dropdown_section_left.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable-xxhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_activity_message.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/activity_message.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_bold_text_message_section_right.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/bold_text_message_section_right.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_button_section_left.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/button_section_left.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_activity_login.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_activity_register.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_activity_main.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/menu_menu.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_chat_item_right.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/chat_item_right.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_dashboard_item.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/dashboard_item.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_fragment_dialogue.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/fragment_dialogue.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_text_section_left.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/text_section_left.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/xml_backup_rules.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable-xhdpi_ic_action_name.png.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable-xhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/drawable-mdpi_ic_action_name.png.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/drawable-mdpi/ic_action_name.png"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/layout_chat_item_left.xml.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/layout/chat_item_left.xml"
+    },
+    {
+        "merged": "com.example.id_chat_firebase.app-debug-69:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.id_chat_firebase.app-main-71:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

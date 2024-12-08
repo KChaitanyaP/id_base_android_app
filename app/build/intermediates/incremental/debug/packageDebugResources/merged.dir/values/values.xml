@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_reminder_dropdown_items">
+        <item>30 min</item>
+        <item>45 min</item>
+        <item>Later</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="activity_reminder_prompt">Select an option</string>
+    <string name="app_name">id-chat-firebase</string>
+    <string name="firebase_database_url" translatable="false">https://id-dev-ac8e8-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1012282071559</string>
+    <string name="google_api_key" translatable="false">AIzaSyAkjo2OPHKXX3hxljXtQlRX17JT56v4OCM</string>
+    <string name="google_app_id" translatable="false">1:1012282071559:android:53c4fb0ebfa8e7ab6428a2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAkjo2OPHKXX3hxljXtQlRX17JT56v4OCM</string>
+    <string name="google_storage_bucket" translatable="false">id-dev-ac8e8.firebasestorage.app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">id-dev-ac8e8</string>
+    <style name="Theme.Idchatfirebase" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>

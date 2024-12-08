@@ -33,7 +33,8 @@ import java.util.List;
 public class DialogueFragment extends Fragment {
     String LOGTAG = "DialogueFragment_ACTIVITY";
     String curUsername;
-    String IDUserid = "5Oid71sDkQf1FV9uBBclkATA0fz1";
+    String IDUserid;
+            //= "ruyLmyYIYYZ7YRhuJ9LZ4cFEGyg2";
     FirebaseUser firebaseUser;
     DatabaseReference reference, referenceID;
 
@@ -84,6 +85,21 @@ public class DialogueFragment extends Fragment {
                                 IDUserid = user.getId();
                                 Log.i(LOGTAG, "Obtained IDUserid:" + IDUserid);
                             }
+                            reference = FirebaseDatabase.getInstance().getReference("Users")
+                                    .child(IDUserid);
+                            reference.addValueEventListener(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                    User user = dataSnapshot.getValue(User.class);
+                                    assert user != null;
+                                    readMessages(firebaseUser.getUid(), IDUserid, user.getImageURL());
+                                }
+
+                                @Override
+                                public void onCancelled(@NonNull DatabaseError error) {
+
+                                }
+                            });
                         }
                     }
 
@@ -112,21 +128,6 @@ public class DialogueFragment extends Fragment {
             text_send.setText("");
         });
 
-        reference = FirebaseDatabase.getInstance().getReference("Users")
-                .child(IDUserid);
-        reference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                User user = dataSnapshot.getValue(User.class);
-                assert user != null;
-                readMessages(firebaseUser.getUid(), IDUserid, user.getImageURL());
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
 
         return view;
     }

@@ -30,6 +30,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -51,15 +52,18 @@ public class MainActivity extends AppCompatActivity {
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         reference = FirebaseDatabase.getInstance().getReference("Users")
                 .child(firebaseUser.getUid());
+        // Log.i(LOGTAG, "Current user: "+reference);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("");
 
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Log.i(LOGTAG, "Current user: "+reference);
                 User user = snapshot.getValue(User.class);
+                Log.i(LOGTAG, "Current user: "+user);
                 assert user != null;
                 username.setText(user.getUsername());
                 if (user.getImageURL().equals("default")){
